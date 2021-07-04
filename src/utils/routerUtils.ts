@@ -1,22 +1,22 @@
 import { RouteRecordRaw } from "vue-router";
 
-export function formatRoutes(routes: PreRoute[]): RouteRecordRaw[] {
+export function formatRoutes(routes: Menu[]): RouteRecordRaw[] {
   let result: RouteRecordRaw[] = []
   routes.forEach(route => {
     let {
       path,
-      component,
       name,
       meta,
       redirect,
+      component,
       children = []
     } = route;
     let fmRouter = {
       path: path,
-      component: loadView(component),
       name: name,
       meta: meta,
       redirect: redirect,
+      component: loadView(component),
       children: formatRoutes(children)
     }
     result.push(fmRouter)

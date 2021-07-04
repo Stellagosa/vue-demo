@@ -1,15 +1,17 @@
 <template>
-  <el-submenu v-if="haveChildren" :index="route.path">
-    <template #title>
+  <template v-if="!route.meta.hidden">
+    <el-submenu v-if="haveChildren" :index="route.path">
+      <template #title>
+        <i :class="route.meta.icon"></i>
+        <span>{{ route.meta.title }}</span>
+      </template>
+      <xb-side-bar-item v-for="child in route.children" :item="child"/>
+    </el-submenu>
+    <el-menu-item v-else :index="route.path">
       <i :class="route.meta.icon"></i>
-      <span>{{ route.meta.title }}</span>
-    </template>
-    <xb-side-bar-item v-for="child in route.children" :item="child"/>
-  </el-submenu>
-  <el-menu-item v-else :index="route.path">
-    <i :class="route.meta.icon"></i>
-    <template #title>{{ route.meta.title }}</template>
-  </el-menu-item>
+      <template #title>{{ route.meta.title }}</template>
+    </el-menu-item>
+  </template>
 </template>
 
 <script lang="ts">
@@ -21,10 +23,6 @@ export default defineComponent({
     item: {
       type: Object,
       required: true
-    },
-    basePath: {
-      type: String,
-      default: ""
     }
   },
   setup(props) {

@@ -7,7 +7,8 @@ export const scrollBarStore = defineStore({
       bars: [{
         path: '/dashboard',
         name: 'dashboard',
-        title: 'Dashboard'
+        title: 'Dashboard',
+        affix: true
       }]
     }
   },
@@ -28,6 +29,14 @@ export const scrollBarStore = defineStore({
           break
         }
       }
+    },
+    resetBar() {
+      this.bars = [{
+        path: '/dashboard',
+        name: 'dashboard',
+        title: 'Dashboard',
+        affix: true
+      }]
     }
 
   }

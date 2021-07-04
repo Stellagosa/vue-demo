@@ -7,7 +7,9 @@ const menu = [
     "name": 'MultilevelMenu',
     "meta": {
       "title": "多级菜单",
-      "icon": "el-icon-s-operation"
+      "icon": "el-icon-s-operation",
+      "affix": false,
+      "hidden": false
     },
     "redirect": null,
     "component": "menu/index.vue",
@@ -17,7 +19,9 @@ const menu = [
         "name": 'menu1',
         "meta": {
           "title": "一级菜单-1",
-          "icon": ""
+          "icon": "",
+          "affix": false,
+          "hidden": false
         },
         "redirect": null,
         "component": "menu/menu1/index.vue",
@@ -27,7 +31,9 @@ const menu = [
             "name": 'menu1-1',
             "meta": {
               "title": "二级菜单-1",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "menu/menu1/menu1-1/index.vue",
@@ -37,7 +43,9 @@ const menu = [
                 "name": 'menu1-1-1',
                 "meta": {
                   "title": "三级菜单-1",
-                  "icon": ""
+                  "icon": "",
+                  "affix": false,
+                  "hidden": false
                 },
                 "redirect": null,
                 "component": "menu/menu1/menu1-1/menu1-1-1/index.vue",
@@ -47,7 +55,9 @@ const menu = [
                     "name": 'menu1-1-1-1',
                     "meta": {
                       "title": "四级菜单",
-                      "icon": ""
+                      "icon": "",
+                      "affix": false,
+                      "hidden": false
                     },
                     "redirect": null,
                     "component": "menu/menu1/menu1-1/menu1-1-1/menu1-1-1-1/index.vue",
@@ -60,7 +70,9 @@ const menu = [
                 "name": 'menu1-1-2',
                 "meta": {
                   "title": "三级菜单-2",
-                  "icon": ""
+                  "icon": "",
+                  "affix": false,
+                  "hidden": false
                 },
                 "redirect": null,
                 "component": "menu/menu1/menu1-1/menu1-1-2/index.vue",
@@ -73,7 +85,9 @@ const menu = [
             "name": 'menu1-2',
             "meta": {
               "title": "二级菜单-2",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "menu/menu1/menu1-2/index.vue",
@@ -86,7 +100,9 @@ const menu = [
         "name": 'menu2',
         "meta": {
           "title": "一级菜单-2",
-          "icon": ""
+          "icon": "",
+          "affix": false,
+          "hidden": false
         },
         "redirect": null,
         "component": "menu/menu2/index.vue",
@@ -96,7 +112,9 @@ const menu = [
             "name": 'menu2-1',
             "meta": {
               "title": "二级菜单-1",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "menu/menu2/menu2-1/index.vue",
@@ -107,7 +125,9 @@ const menu = [
             "name": 'menu2-2',
             "meta": {
               "title": "二级菜单-2",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "menu/menu2/menu2-2/index.vue",
@@ -122,7 +142,9 @@ const menu = [
     "name": 'user',
     "meta": {
       "title": "用户管理",
-      "icon": "el-icon-s-operation"
+      "icon": "el-icon-s-operation",
+      "affix": false,
+      "hidden": false
     },
     "redirect": null,
     "component": "user/index.vue",
@@ -133,7 +155,9 @@ const menu = [
     "name": 'components',
     "meta": {
       "title": "组件",
-      "icon": "el-icon-s-operation"
+      "icon": "el-icon-s-operation",
+      "affix": false,
+      "hidden": false
     },
     "redirect": null,
     "component": "components/index.vue",
@@ -143,7 +167,9 @@ const menu = [
         "name": 'form',
         "meta": {
           "title": "表单",
-          "icon": ""
+          "icon": "",
+          "affix": false,
+          "hidden": false
         },
         "redirect": null,
         "component": "components/form/index.vue",
@@ -153,7 +179,9 @@ const menu = [
             "name": 'button',
             "meta": {
               "title": "按钮",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/form/button/index.vue",
@@ -164,7 +192,9 @@ const menu = [
             "name": 'date',
             "meta": {
               "title": "日期组件",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/form/date/index.vue",
@@ -174,7 +204,9 @@ const menu = [
                 "name": 'datePicker',
                 "meta": {
                   "title": "日期选择器",
-                  "icon": ""
+                  "icon": "",
+                  "affix": false,
+                  "hidden": false
                 },
                 "redirect": null,
                 "component": "components/form/date/date-picker/index.vue",
@@ -185,7 +217,9 @@ const menu = [
                 "name": 'timePicker',
                 "meta": {
                   "title": "时间选择器",
-                  "icon": ""
+                  "icon": "",
+                  "affix": false,
+                  "hidden": false
                 },
                 "redirect": null,
                 "component": "components/form/date/time-picker/index.vue",
@@ -196,7 +230,9 @@ const menu = [
                 "name": 'timeSelect',
                 "meta": {
                   "title": "时间选择器",
-                  "icon": ""
+                  "icon": "",
+                  "affix": false,
+                  "hidden": false
                 },
                 "redirect": null,
                 "component": "components/form/date/time-select/index.vue",
@@ -209,7 +245,9 @@ const menu = [
             "name": 'layout',
             "meta": {
               "title": "布局组件",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/form/layout/index.vue",
@@ -220,7 +258,9 @@ const menu = [
             "name": 'table',
             "meta": {
               "title": "表格",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/form/table/index.vue",
@@ -233,7 +273,9 @@ const menu = [
         "name": 'notice',
         "meta": {
           "title": "通知",
-          "icon": ""
+          "icon": "",
+          "affix": false,
+          "hidden": false
         },
         "redirect": null,
         "component": "components/notice/index.vue",
@@ -243,7 +285,9 @@ const menu = [
             "name": 'alert',
             "meta": {
               "title": "警告",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/notice/alert/index.vue",
@@ -254,7 +298,9 @@ const menu = [
             "name": 'loading',
             "meta": {
               "title": "加载",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/notice/loading/index.vue",
@@ -265,7 +311,9 @@ const menu = [
             "name": 'message',
             "meta": {
               "title": "消息提示",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/notice/message/index.vue",
@@ -276,7 +324,9 @@ const menu = [
             "name": 'messageBox',
             "meta": {
               "title": "弹框",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/notice/message-box/index.vue",
@@ -287,7 +337,9 @@ const menu = [
             "name": 'notification',
             "meta": {
               "title": "通知",
-              "icon": ""
+              "icon": "",
+              "affix": false,
+              "hidden": false
             },
             "redirect": null,
             "component": "components/notice/notification/index.vue",
@@ -300,7 +352,9 @@ const menu = [
         "name": 'others',
         "meta": {
           "title": "其它",
-          "icon": ""
+          "icon": "",
+          "affix": false,
+          "hidden": false
         },
         "redirect": null,
         "component": "components/others/index.vue",

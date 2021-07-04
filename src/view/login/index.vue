@@ -61,7 +61,7 @@ export default defineComponent({
     const handlerLogin = async () => {
       let res = await loginStore.userLogin(loginForm)
       if (res) {
-        let path = route.query.redirect as string
+        let path = route.query.redirect as string || '/dashboard'
         await router.push(path)
       }
       ElMessage({

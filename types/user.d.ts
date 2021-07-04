@@ -3,24 +3,15 @@ declare interface LoginForm {
   password: string,
 }
 
-declare interface PreRoute {
-  id: number,
-  parentId: number,
-  icon: string,
-  name: string,
-  path: string,
-  component: string,
-  redirect: string,
-  meta: {},
-  children: PreRoute[]
-}
-
 declare interface Menu {
-  id: number;
-  parentId: number;
   path: string;
   name: string;
-  icon: string;
+  meta: {
+    title: string;
+    icon: string;
+    affix: boolean; // scrollBar 中能否关闭
+    hidden: boolean; // 是否生成菜单栏
+  };
   redirect: string;
   component: string;
   children: Menu[];
@@ -45,6 +36,7 @@ declare interface TabBar {
   path: string;
   name: string;
   title: string;
+  affix: boolean;
 }
 
 

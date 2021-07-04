@@ -31,6 +31,7 @@ export default defineComponent({
       activeItem.value = route.path
     })
     let menus = menuStore().getMenus
+    console.log(menus)
     const handleClose = () => {
       console.log("close")
     }
