@@ -1,4 +1,4 @@
 export enum SideBarWidth {
-  max = 230,
-  min = 70
+  max = 200,
+  min = 40
 }

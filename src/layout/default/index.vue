@@ -35,7 +35,7 @@ export default defineComponent({
     XbFooter
   },
   setup() {
-    const xbMenuWidth = ref(230)
+    const xbMenuWidth = ref(SideBarWidth.max)
     eventBus.on("changeButton", change => {
       xbMenuWidth.value = change ? SideBarWidth.min : SideBarWidth.max
     })
