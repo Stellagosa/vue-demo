@@ -1,5 +1,6 @@
 import { RouteRecordRaw } from "vue-router";
 
+const modules = import.meta.glob("../view/**/*.vue")
 export function formatRoutes(routes: Menu[]): RouteRecordRaw[] {
   let result: RouteRecordRaw[] = []
   routes.forEach(route => {
@@ -16,14 +17,10 @@ export function formatRoutes(routes: Menu[]): RouteRecordRaw[] {
       name: name,
       meta: meta,
       redirect: redirect,
-      component: loadView(component),
+      component: modules[`../view/${component}.vue`],
       children: formatRoutes(children)
     }
     result.push(fmRouter)
   })
   return result
-}
-
-function loadView(view: string) {
-  return () => import(`/src/view/${ view }`)
 }

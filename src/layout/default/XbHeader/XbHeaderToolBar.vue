@@ -1,11 +1,11 @@
 <template>
   <div class="xb-header-tool-bar">
     <div class="xb-header-tool-item">
-      <el-image src="public/setting.svg"/>
+      <el-image src="/setting.svg"/>
     </div>
     <div class="xb-header-tool-item">
       <el-dropdown trigger="hover">
-        <el-image src="public/user-male.svg"/>
+        <el-image src="/user-male.svg"/>
         <template #dropdown>
           <el-dropdown-menu>
             <el-dropdown-item @click="handlerUserInfo">个人信息</el-dropdown-item>

@@ -27,11 +27,11 @@
       </div>
       <div class="login-third-login">
         <div class="login-third-login-item">
-          <el-image src="public/wechat.svg"/>
+          <el-image src="/wechat.svg"/>
           <div class="wechat-item-content">微信登录</div>
         </div>
         <div class="login-third-login-item">
-          <el-image src="public/qq.svg"/>
+          <el-image src="/qq.svg"/>
           <div class="qq-item-content">QQ登录</div>
         </div>
       </div>
@@ -85,7 +85,7 @@ export default defineComponent({
 .login-page {
   height: 100%;
   width: 100%;
-  background: url("public/login-bg-image.jpg") no-repeat center center;
+  background: url("/login-bg-image.jpg") no-repeat center center;
   background-size: 100% 100%;
 
   .login-container {

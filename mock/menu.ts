@@ -12,7 +12,7 @@ const menu = [
       "hidden": false
     },
     "redirect": null,
-    "component": "menu/index.vue",
+    "component": "menu/index",
     "children": [
       {
         "path": '/menu/menu1',
@@ -24,7 +24,7 @@ const menu = [
           "hidden": false
         },
         "redirect": null,
-        "component": "menu/menu1/index.vue",
+        "component": "menu/menu1/index",
         "children": [
           {
             "path": '/menu/menu1/menu1-1',
@@ -36,7 +36,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "menu/menu1/menu1-1/index.vue",
+            "component": "menu/menu1/menu1-1/index",
             "children": [
               {
                 "path": '/menu/menu1/menu1-1/menu1-1-1',
@@ -48,7 +48,7 @@ const menu = [
                   "hidden": false
                 },
                 "redirect": null,
-                "component": "menu/menu1/menu1-1/menu1-1-1/index.vue",
+                "component": "menu/menu1/menu1-1/menu1-1-1/index",
                 "children": [
                   {
                     "path": '/menu/menu1/menu1-1/menu1-1-1/menu1-1-1-1',
@@ -60,7 +60,7 @@ const menu = [
                       "hidden": false
                     },
                     "redirect": null,
-                    "component": "menu/menu1/menu1-1/menu1-1-1/menu1-1-1-1/index.vue",
+                    "component": "menu/menu1/menu1-1/menu1-1-1/menu1-1-1-1/index",
                     "children": []
                   }
                 ]
@@ -75,7 +75,7 @@ const menu = [
                   "hidden": false
                 },
                 "redirect": null,
-                "component": "menu/menu1/menu1-1/menu1-1-2/index.vue",
+                "component": "menu/menu1/menu1-1/menu1-1-2/index",
                 "children": []
               }
             ]
@@ -90,7 +90,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "menu/menu1/menu1-2/index.vue",
+            "component": "menu/menu1/menu1-2/index",
             "children": []
           }
         ]
@@ -105,7 +105,7 @@ const menu = [
           "hidden": false
         },
         "redirect": null,
-        "component": "menu/menu2/index.vue",
+        "component": "menu/menu2/index",
         "children": [
           {
             "path": '/menu/menu2/menu2-1',
@@ -117,7 +117,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "menu/menu2/menu2-1/index.vue",
+            "component": "menu/menu2/menu2-1/index",
             "children": []
           },
           {
@@ -130,7 +130,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "menu/menu2/menu2-2/index.vue",
+            "component": "menu/menu2/menu2-2/index",
             "children": []
           }
         ]
@@ -147,7 +147,7 @@ const menu = [
       "hidden": false
     },
     "redirect": null,
-    "component": "user/index.vue",
+    "component": "user/index",
     "children": []
   },
   {
@@ -160,7 +160,7 @@ const menu = [
       "hidden": false
     },
     "redirect": null,
-    "component": "components/index.vue",
+    "component": "components/index",
     "children": [
       {
         "path": '/components/form',
@@ -172,7 +172,7 @@ const menu = [
           "hidden": false
         },
         "redirect": null,
-        "component": "components/form/index.vue",
+        "component": "components/form/index",
         "children": [
           {
             "path": '/components/form/button',
@@ -184,7 +184,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/form/button/index.vue",
+            "component": "components/form/button/index",
             "children": []
           },
           {
@@ -197,7 +197,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/form/date/index.vue",
+            "component": "components/form/date/index",
             "children": [
               {
                 "path": '/components/form/date/datePicker',
@@ -209,7 +209,7 @@ const menu = [
                   "hidden": false
                 },
                 "redirect": null,
-                "component": "components/form/date/date-picker/index.vue",
+                "component": "components/form/date/date-picker/index",
                 "children": []
               },
               {
@@ -222,7 +222,7 @@ const menu = [
                   "hidden": false
                 },
                 "redirect": null,
-                "component": "components/form/date/time-picker/index.vue",
+                "component": "components/form/date/time-picker/index",
                 "children": []
               },
               {
@@ -235,7 +235,7 @@ const menu = [
                   "hidden": false
                 },
                 "redirect": null,
-                "component": "components/form/date/time-select/index.vue",
+                "component": "components/form/date/time-select/index",
                 "children": []
               }
             ]
@@ -250,7 +250,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/form/layout/index.vue",
+            "component": "components/form/layout/index",
             "children": []
           },
           {
@@ -263,7 +263,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/form/table/index.vue",
+            "component": "components/form/table/index",
             "children": []
           }
         ]
@@ -278,7 +278,7 @@ const menu = [
           "hidden": false
         },
         "redirect": null,
-        "component": "components/notice/index.vue",
+        "component": "components/notice/index",
         "children": [
           {
             "path": '/components/notice/alert',
@@ -290,7 +290,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/notice/alert/index.vue",
+            "component": "components/notice/alert/index",
             "children": []
           },
           {
@@ -303,7 +303,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/notice/loading/index.vue",
+            "component": "components/notice/loading/index",
             "children": []
           },
           {
@@ -316,7 +316,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/notice/message/index.vue",
+            "component": "components/notice/message/index",
             "children": []
           },
           {
@@ -329,7 +329,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/notice/message-box/index.vue",
+            "component": "components/notice/message-box/index",
             "children": []
           },
           {
@@ -342,7 +342,7 @@ const menu = [
               "hidden": false
             },
             "redirect": null,
-            "component": "components/notice/notification/index.vue",
+            "component": "components/notice/notification/index",
             "children": []
           }
         ]
@@ -357,7 +357,7 @@ const menu = [
           "hidden": false
         },
         "redirect": null,
-        "component": "components/others/index.vue",
+        "component": "components/others/index",
         "children": []
       }
 
